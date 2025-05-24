@@ -1,57 +1,41 @@
-🐾 Gestión Asíncrona de una Veterinaria - README
-📝 Descripción del Proyecto
-Este proyecto es una aplicación interactiva en JavaScript puro para gestionar mascotas y sus dueños en una clínica veterinaria. La aplicación implementa operaciones CRUD básicas con validaciones y manejo de datos en memoria, destacando el uso de diferentes técnicas de asincronía (callbacks, Promesas y async/await) para simular procesos comunes en una veterinaria como validaciones, búsquedas y confirmaciones.
+# 🐾 **Mascota Feliz - Gestión Asíncrona de Veterinaria**  
 
-🛠 Tecnologías Usadas
-JavaScript Vanilla (sin frameworks)
 
-HTML básico para la interfaz
+Bienvenido a **Veterinaria Mascota Feliz**, una aplicación interactiva desarrollada en **JavaScript puro** para gestionar mascotas y sus dueños en una clínica veterinaria. Este proyecto implementa operaciones CRUD con validaciones y simula procesos asíncronos como validaciones de datos, búsquedas y confirmaciones.  
 
-Programación asíncrona:
+---
 
-Callbacks
+## 🚀 **Características Principales**  
 
-Promesas
+✅ **CRUD Completo** para dueños y mascotas  
+✅ **Validaciones** de datos en tiempo real  
+✅ **Simulaciones asíncronas** con:  
+   - 📞 **Callbacks**  
+   - 🤝 **Promesas**  
+   - ⏳ **Async/Await**  
+✅ **Interfaz intuitiva** mediante `prompt()`, `alert()` y `console.log()`  
+✅ **Código modular** para mejor mantenibilidad  
 
-Async/Await
+---
 
-setTimeout para simulaciones de retraso
+## 🛠 **Tecnologías Utilizadas**  
 
-Estructura modular de código
+| Tecnología | Uso |
+|------------|-----|
+| ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black) | Lógica principal y asincronía |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) | Estructura básica |
+| ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) | Control de versiones |
 
-⚡ Implementación de Asincronía
-El proyecto aplica diferentes patrones de asincronía en las siguientes funcionalidades:
+---
 
-Registro de dueño: Usa callback + setTimeout para simular validación de datos (1.5s)
+## ⚙ **Funcionalidades Asíncronas**  
 
-Registro de mascota: Callback + setTimeout para validar existencia del dueño (2s)
+| Operación | Técnica | Simulación |
+|-----------|---------|------------|
+| **Registro de dueño** | Callback + `setTimeout` | Validación en **1.5 segundos** |
+| **Registro de mascota** | Callback + `setTimeout` | Verificación de dueño en **2 segundos** |
+| **Búsqueda de mascota** | Promesa | Retraso de **1.5 segundos** |
+| **Actualizar estado de salud** | Async/Await | Espera de **1 segundo** (simulando revisión veterinaria) |
+| **Eliminar mascota** | Promesa + confirmación | Retraso de **2 segundos** antes de borrar |
+| **Listar mascotas por dueño** | Async/Await | Carga de datos en **2 segundos** |
 
-Búsqueda de mascota: Implementada con Promesas y retraso de 1.5s
-
-Actualización de estado: Async/await con espera simulada de 1s
-
-Eliminación de mascota: Promesa con confirmación tras 2 segundos
-
-Mascotas por dueño: Async/await con retardo de carga de 2s
-
-🏗 Estructura del Código
-El código está organizado en funciones modulares para cada operación:
-
-Funciones para CRUD de dueños
-
-Funciones para CRUD de mascotas
-
-Funciones de validación
-
-Funciones asíncronas con diferentes patrones
-
-Menú interactivo principal
-
-🖥 Interfaz
-La aplicación se controla completamente mediante:
-
-prompt() para entrada de datos
-
-alert() para mostrar resultados
-
-console.log() para registro de operaciones
